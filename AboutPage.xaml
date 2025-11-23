@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BanceaRaulLab7.AboutPage"
+             Title="About">
+
+    <VerticalStackLayout Spacing="10" Margin="20">
+
+        <HorizontalStackLayout Spacing="15">
+
+            <Image Source="shop_list"
+                   HeightRequest="80" />
+
+            <Label Text="My Shopping Lists"
+                   FontAttributes="Bold"
+                   FontSize="24"
+                   VerticalOptions="Center" />
+
+            <Label Text="v1.0"
+                   FontSize="20"
+                   VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <Label Text="This app will help you manage your shopping lists."
+               FontSize="18" />
+    </VerticalStackLayout>
+</ContentPage>
