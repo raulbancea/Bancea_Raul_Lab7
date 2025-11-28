@@ -1,4 +1,4 @@
-﻿namespace BanceaRaulLab7
+﻿namespace Bancea_Raul_Lab7
 {
     public partial class AppShell : Shell
     {

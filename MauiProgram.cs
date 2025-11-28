@@ -1,12 +1,11 @@
-﻿using Microsoft.Extensions.Logging;
-
-namespace BanceaRaulLab7
+﻿namespace Bancea_Raul_Lab7
 {
     public static class MauiProgram
     {
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
@@ -14,10 +13,6 @@ namespace BanceaRaulLab7
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
-
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
 
             return builder.Build();
         }

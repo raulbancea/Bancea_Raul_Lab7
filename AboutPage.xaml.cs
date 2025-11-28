@@ -1,9 +1,10 @@
-namespace BanceaRaulLab7;
-
-public partial class AboutPage : ContentPage
+namespace Bancea_Raul_Lab7
 {
-	public AboutPage()
-	{
-		InitializeComponent();
-	}
+    public partial class AboutPage : ContentPage
+    {
+        public AboutPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

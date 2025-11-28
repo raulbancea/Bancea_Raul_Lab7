@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    x:Class="Bancea_Raul_Lab7.ListEntryPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            Text="Add Shopping List"
+            Clicked="OnShopListAddedClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ListView
+        x:Name="listView"
+        Margin="20"
+        ItemSelected="OnListViewItemSelected">
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell 
+                    Text="{Binding Description}"
+                    Detail="{Binding Date}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+</ContentPage>

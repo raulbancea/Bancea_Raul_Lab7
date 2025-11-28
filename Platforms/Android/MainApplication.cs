@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Runtime;
+using Bancea_Raul_Lab7;
 
 namespace BanceaRaulLab7
 {
